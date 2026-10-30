@@ -48,6 +48,10 @@ Wine Quality Data Analysis/
 ├── data/
 │   └── winequality.csv
 ├── figure/
+│   ├── wine_quality_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── scatter_plot_matrix.png
+│   └── total_sulfur_dioxide_boxplot.png
 ├── notebook/
 │   └── Wine_Quality.ipynb
 ├── .gitignore
@@ -83,6 +87,36 @@ The analysis demonstrated how data preprocessing and exploratory visualizations 
 - IQR-based filtering was applied to the `total sulfur dioxide` feature.
 - The histogram provided an overview of wine quality ratings.
 - The correlation heatmap and scatter plot matrix supported the examination of relationships between features.
+
+## Project Visualizations
+
+The following visualizations were generated during the exploratory data analysis and exported as high-resolution PNG images.
+
+### 1. Wine Quality Distribution
+
+The histogram illustrates the frequency distribution of wine quality ratings in the analyzed dataset.
+
+![Wine Quality Distribution](figure/wine_quality_distribution.png)
+
+### 2. Correlation Heatmap
+
+The correlation heatmap displays the strength and direction of linear relationships between the numerical variables.
+
+![Correlation Heatmap](figure/correlation_heatmap.png)
+
+### 3. Scatter Plot Matrix
+
+The scatter plot matrix illustrates pairwise relationships between physicochemical features, with observations differentiated by wine quality ratings.
+
+![Scatter Plot Matrix](figure/scatter_plot_matrix.png)
+
+### 4. Outlier Detection Boxplot
+
+The boxplot visualizes the distribution of `total sulfur dioxide` and highlights observations that may be considered outliers.
+
+![Total Sulfur Dioxide Boxplot](figure/total_sulfur_dioxide_boxplot.png)
+
+These visualizations complement the statistical analysis and support the interpretation of the dataset's characteristics.
 
 ## Limitations
 
